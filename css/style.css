@@ -1,0 +1,26 @@
+#main-header {
+  margin-top: 20px;
+}
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+#main-header .fab {
+  color: white;
+}
+#main-header .bg-black {
+  background: black;
+}
+#main-header .port-icon {
+  width: 30%;
+}
+#main-header .port-icon:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+  .port-icon {
+    padding: 3em !important;
+  }
+}
